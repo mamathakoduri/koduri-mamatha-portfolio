@@ -36,9 +36,4 @@ pre{padding:28px;font:14px/1.9 ui-monospace,SFMono-Regular,Consolas,monospace;co
 footer{padding:30px 7%;border-top:1px solid var(--border);color:var(--muted);font-size:12px;text-align:center}
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:70px}.hero-card{display:none}.skills-grid{grid-template-columns:1fr 1fr}.about-grid{grid-template-columns:1fr}.projects-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.header{padding:0 5%}.menu-btn{display:block}.nav{display:none;position:absolute;top:76px;left:0;right:0;padding:20px 7%;background:var(--surface);flex-direction:column;gap:18px;border-bottom:1px solid var(--border)}.nav.open{display:flex}.section{padding:75px 5%}.hero{padding:65px 5%;min-height:auto}.skills-grid,.certs{grid-template-columns:1fr}.buttons{flex-wrap:wrap}.socials{flex-wrap:wrap}h1{letter-spacing:-2px}}
-.Profile-photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-}
+.Profile-photo {.width: 180px;height: 180px;border-radius: 50%;object-fit: cover;}
